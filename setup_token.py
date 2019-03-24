@@ -1,13 +1,9 @@
 
 
 import os.path
-import signal
-import sys
-import time
 from roon import RoonApi
 
-
-ROON_HOST = "192.168.1.176"
+ROON_HOST = "localhost"
 
 token = None
 if os.path.isfile("roontoken.txt"):
