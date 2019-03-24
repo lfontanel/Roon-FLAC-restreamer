@@ -37,7 +37,7 @@ chmod +x play.liq
 ./setup.liq
 ```
 
-You should see a bunch of output. Using VLC, you can verify that http://localhost:8000/stream.flac is producing music FLAC-encoded at 16/44.1 .
+You should see a bunch of output. Using VLC, you can verify that http://localhost:8000/stream.flac is producing 16/44.1 FLAC-encoded music.
 
 #### 2. In Roon:
 
