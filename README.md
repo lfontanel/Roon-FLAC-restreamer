@@ -2,7 +2,7 @@
 
 ### DISCLAIMER
 
-This is a proof of concept, mostly because I'm a podcast junkie and that it the one feature I miss in Roon compared to my old Daphile/Squeezebox server.<br/>
+This is a proof of concept, mostly because I'm a podcast junkie and that is the one feature I miss in Roon compared to my old Daphile/Squeezebox setup.<br/>
 <br/>
 It assumes you know what you're doing.<br/>
 It comes "as-is", i.e. I might answer questions on the Roon forum but assume it comes with no support.<br/>
