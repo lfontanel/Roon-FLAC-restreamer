@@ -20,8 +20,10 @@ sudo apt install liquidsoap
 #### 1. At the command-line:
 
 ```bash
+chmod +x setup_token.py
+chmod +x restream.py
 chmod +x setup.liq
-chmod +x restream.liq
+chmod +x play.liq
 ./setup.liq
 ```
 
@@ -29,11 +31,40 @@ You should see a bunch of output. Using VLC, you can verify that http://localhos
 
 #### 2. In Roon:
 
-create an Internet Radio station with URL http://localhost:8000/stream.flac .
+create an Internet Radio station with URL http://localhost:8000/stream.flac named _*FLACReStreamer*_.
 
 #### 3. At the command-line:
 
-kill the setup.liq session (ctrl-D).
+Kill the setup.liq session (ctrl-D).
 
-#### Roon Re-stream
+#### Setup the ROON API wrapper
+
+#### 4. At the command-line:
+
+```bash
+laurent@nexus7:~$ ./setup_token.py
+2019-03-24 15:24:25,064 INFO   roonapi -- Connecting to Roon server x.x.x.x:9100
+2019-03-24 15:24:25,071 INFO   roonapi -- Connection with roon websockets (re)created.
+2019-03-24 15:24:25,072 INFO   roonapi -- The application should be approved within Roon's settings.
+```
+
+#### 5. In Roon again:
+
+Settings > Extensions > Python API for Roon > Enable
+The console should show:
+
+```bash
+2019-03-24 15:24:38,175 INFO   roonapi -- Registered to Roon server xxx
+```
+
+#### 4. At the command-line:
+
+The script should complete and print the API token.
+
+#### Now we can finally re-stream!
+
+```bash
+./restream.py https://sample-videos.com/audio/mp3/crowd-cheering.mp3
+```
+You're welcome!
 
