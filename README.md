@@ -2,7 +2,7 @@
 
 ### DISCLAIMER
 
-This is a proof of concept, mostly because I'm a podcast junkie and that it the one feature I miss in Roon compare to my old Daphile/Squeezebox server.
+This is a proof of concept, mostly because I'm a podcast junkie and that it the one feature I miss in Roon compared to my old Daphile/Squeezebox server.
 My environment is a Roon Core running on Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-46-generic x86_64).
 I have no idea if it works on any other platform.
 It assumes you know what you're doing.
