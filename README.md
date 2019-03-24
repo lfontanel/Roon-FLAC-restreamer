@@ -2,12 +2,13 @@
 
 ### DISCLAIMER
 
-This is a proof of concept.
+This is a proof of concept, mostly because I'm a podcast junkie and that it the one feature I miss in Roon compare to my old Daphile/Squeezebox server.
 My environment is a Roon Core running on Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-46-generic x86_64).
 I have no idea if it works on any other platform.
 It assumes you know what you're doing.
-This comes "as-is", i.e. I might answer questions on the Roon forum but assume it comes with no support.
+It comes "as-is", i.e. I might answer questions on the Roon forum but assume it comes with no support.
 _*If you're afraid to break your Roon server, do not install it.*_
+I did my best to document dependencies, commands, etc. mostly because it was such a pain to setup. If you find a typo, have any idea on how to make it better, create a Pull Request. 
 
 ### A- Software pre-requisites
 _I installed everything on my Roon Core, but it can be installed on a different host.
@@ -69,7 +70,7 @@ The console should show:
 
 The script should complete and print the API token.
 
-#### Now we can finally re-stream!
+## Now we can finally re-stream
 
 ```bash
 ./restream.py https://sample-videos.com/audio/mp3/crowd-cheering.mp3
