@@ -1,9 +1,17 @@
 # Roon-FLAC-restreamer
 
+### DISCLAIMER
+
+This is a proof of concept.
+My environment is a Roon Core running on Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-46-generic x86_64).
+I have no idea if it works on any other platform.
+It assumes you know what you're doing.
+This comes "as-is", i.e. I might answer questions on the Roon forum but assume it comes with no support.
+_*If you're afraid to break your Roon server, do not install it.*_
 
 ### A- Software pre-requisites
 _I installed everything on my Roon Core, but it can be installed on a different host.
-If you install it on a different host, replace 'localhost' with your host name/ip address in your FLACReStreamer Roon radio station URL in step B-2._
+If you install it on a different host, replace 'localhost' with your host name/ip address in your FLACReStreamer Roon radio station URL in step B-2 and edit the .py and .liq files accordingly._
 
 ```bash
 # I'm using Ubuntu 18.04.2 LTS (GNU/Linux 4.15.0-46-generic x86_64)
